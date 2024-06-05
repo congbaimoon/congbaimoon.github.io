@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: fragment
 title: 本博客模板常见问题 Q & A
 categories: GitHub
 description: 使用这个博客模板的朋友们时不时会提出一些问题，我将它们的解决方案逐渐整理归纳，汇总到这一篇帖子里。

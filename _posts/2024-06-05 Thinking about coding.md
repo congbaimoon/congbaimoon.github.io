@@ -1,8 +1,9 @@
 ---
 layout: post
 title: Thinking about coding
-categories:
-  - data structure
+categories: 
+  - cate1
+  - cate2
 description: some word here
 keywords: keyword1, keyword2
 mermaid: false
@@ -13,8 +14,8 @@ mindmap: false
 mindmap2: false
 ---
 
-##   二叉树非递归遍历问题
 
+##   二叉树非递归遍历问题
 两个事情入栈出栈，栈中，栈外
 ```cpp
 TreeNode *p=root;
@@ -34,8 +35,10 @@ while(!p || !s.empty()){//p或栈不空<==>p代表栈外，s代表站内
 ```
 
 ## 重构二叉树重点是分清有左子树还是右子树
+两种方法
+### 重构二叉树, 迭代方式, 以栈顶元素判断
 ```cpp
-# 重构二叉树, 迭代方式, 以栈顶元素判断
+
 /**
 * struct TreeNode {
 * int val;
@@ -90,5 +93,6 @@ public:
 		return root;
 	}
 };
+
 ```		
 good morning hello

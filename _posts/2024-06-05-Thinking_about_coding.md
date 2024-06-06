@@ -2,8 +2,8 @@
 layout: post
 title: Thinking about coding
 categories: 
-  - cate1
-  - cate2
+  - codeing
+  - data struct
 description: some word here
 keywords: keyword1, keyword2
 mermaid: false
@@ -95,4 +95,3 @@ public:
 };
 
 ```		
-good morning hello
